@@ -19,10 +19,13 @@
 ## Зачем это все ?
 Навеяно тредом от 26.11.2018.
 > Если помните, 4-5 лет назад анон запилил скриптец для говноклассников, который ебашил единички и оставлял комменты нелестные хачам. Набеги устраивались еще. Скрипт еще подаёт признаки жизни, но не робит.
+
 > https://github.com/ErohinAndCoLtd/odnoklassniki/blob/master/ComboHateScript.user.js
+
 > https://pastebin.com/wZwmGqGm
 
 Все баги и хотелки [сюда](https://github.com/webcamguide/odnoklassniki/issues)
 
 [Здесь](http://simsms.org/) можно взять номера для активации аккаунтов недорого.
+
 Если вдруг перестанет работать или захочется чего допилить, файл проекта лежит - [здесь](https://raw.githubusercontent.com/webcamguide/odnoklassniki/master/data/project.xml).
