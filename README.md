@@ -22,3 +22,5 @@
 > https://pastebin.com/wZwmGqGm
 
 Все баги и хотелки [сюда](https://github.com/webcamguide/odnoklassniki/issues)
+
+[Здесь](http://simsms.org/) можно взять номера для активации аккаунтов недорого.
