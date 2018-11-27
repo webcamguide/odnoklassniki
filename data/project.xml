@@ -7,6 +7,16 @@
 
    _call(_on_start, null)!
 
+   section_start("", 754257616)!
+   /*Dat:eyJzIjoiZmlsZXN5c3RlbV9maWxlX3RvX2xpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJFeHByZXNzaW9uVmFsdWVDb25maXJtIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7Y29tbWVudHN9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImNvbW1lbnRzIn1dfQ==*/
+   RS("comments", false, false)!
+   RESOURCE_941468 = _result().get()
+   {
+   var d = native("filesystem", "readfile", JSON.stringify({value: RESOURCE_941468,base64:false,from:0,to:0}))
+   VAR_COMMENTS	= (d.length == 0) ? [] : d.split(/\r?\n/)
+   }
+   section_end()!
+
    section_start("", 743063883)!
    /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL20ub2sucnUiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
    /*Browser*/
@@ -228,6 +238,44 @@
       })!
       section_end()!
 
+      section_start("", 153540540)!
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjY29udGVudCA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNjb250ZW50ID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IGEgPiBzcGFuIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDUpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsImNzczMiOiIgPkNTUz4gLnByb2ZpbGUtY2FyZF9hdmEtbGluayA+IC51LWF2YV9pbWciLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48c3BhbiBzdHlsZT1cImJhY2tncm91bmQtaW1hZ2U6dXJsKCcvL2kubSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJjb250ZW50XCIpL2RpdltAY2xhc3M9XCJwcm9maWxlLWNhcmRfdyBfX2ZyaWVuZFwiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkIF9fY292ZXJcIl0vZGl2W0BjbGFzcz1cInByb2ZpbGUtY2FyZF9hdmF0YXItd1wiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkX2RhdGFcIl0vYVtAY2xhc3M9XCJwcm9maWxlLWNhcmRfYXZhLWxpbmsgdS1hdmEgX19ib3JkZXJlZFwiXS9zcGFuW0BjbGFzcz1cInUtYXZhX2ltZ1wiXSIsImF0IjoiMzQ0LCAyMDAiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Browser*/
+      _SELECTOR = "\u003eMATCH\u003e\u003cspan style=\u0022background-image:url(\u0027//i.m";
+      wait_element_visible(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).random_point()!
+      _if(_result().length > 0, function(){
+      move( {} )!
+      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      _call(_clarify, {} )!
+      mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 900786499)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMjAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+      sleep(rand(1000,2000))!
+      section_end()!
+
+      section_start("", 114048042)!
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAubnBfbWFyazEiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48YSByb2xlPVwiYnV0dG9uXCIgY2xhc3M9XCJucF9tYXJrIG5wX21hcmsxIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcInJvb3RcIikvYm9keVtAY2xhc3M9XCJkZXNrdG9wIG5vc2Nyb2xsIG4gdG9vbGJhci1zZWFyY2gtb24gZml4ZWQtc2lkZWJhci12aWV3IGJsb2NrZWQtb3Blbi1zaWRlYmFyIGZpeGVkIHN2Zy1hdmF0YXJzIHBpbGxvdy1hdmF0YXJzIGZ1bGwtaGVpZ2h0IHR3by1jb2x1bW5zLWxheW91dCBsaWdodC1zaWRlYmFyIHRvb2xiYXItZml4ZWQgd2lkZ2V0LXJlZGVzaWduIGZsb2F0LXNpZGViYXIgX19wcm9maWxlLWNhcmQgX191bmRlci1sYXllclwiXS9kaXZbQGNsYXNzPVwibnBfcGhvdG9Cb3ggYWRhcHRhYmxlIF9fZGVza3RvcCBfX3Nob3duIF9fc2hvd25JbmZvXCJdL2RpdltAY2xhc3M9XCJucF9jdHJsc1wiXS9kaXZbQGNsYXNzPVwibnBfY3RybHMtYm90dG9tXCJdL2RpdltAY2xhc3M9XCJucF9tYXJrcy1wYW5lbFwiXS9kaXZbQGNsYXNzPVwibnBfbWFya3NcIl0vZGl2W0BjbGFzcz1cIm5wX21hcmtzXCJdL2FbQGNsYXNzPVwibnBfbWFyayBucF9tYXJrMVwiXSIsImF0IjoiNDAzLCA1NDgiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Browser*/
+      _SELECTOR = "\u003eMATCH\u003e\u003ca role=\u0022button\u0022 class=\u0022np_mark np_mark1";
+      wait_element_visible(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).random_point()!
+      _if(_result().length > 0, function(){
+      move( {} )!
+      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      _call(_clarify, {} )!
+      mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 487286887)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMjAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+      sleep(rand(1000,2000))!
+      section_end()!
+
       section_start("", 160875121)!
       /*Dat:eyJzIjoiamF2YXNjcmlwdCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJTQVZFRF9TQ1JJUFRfUkVTVUxUIn0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ3aW5kb3cuY2xvc2UoKTsiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       /*Browser*/
@@ -278,18 +326,18 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>false</IsEnginesInAppData>
      <CompileType>NoProtection</CompileType>
-     <ScriptVersion>0.0.1</ScriptVersion>
+     <ScriptVersion>0.0.2</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>21.4.1</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=350
+ToolboxHeight=232
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=0
-ScenarioWidth=597
+ScenarioWidth=435
 Zoom=100
 IsMaximized=true
 Restart=true
@@ -316,15 +364,15 @@ ProxyTunneling=true
     &quot;Luminati&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -337,8 +385,8 @@ ProxyTunneling=true
      <ModelList>
           <Model>
                <Name>login</Name>
-               <Description ru="login" en="login"/>
-               <SectionName ru="" en=""/>
+               <Description en="login" ru="login"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -352,8 +400,8 @@ ProxyTunneling=true
           <Defaults/>
           <Model>
                <Name>password</Name>
-               <Description ru="password" en="password"/>
-               <SectionName ru="" en=""/>
+               <Description en="password" ru="password"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -367,8 +415,8 @@ ProxyTunneling=true
           <Defaults/>
           <Model>
                <Name>city</Name>
-               <Description ru="city" en="city"/>
-               <SectionName ru="" en=""/>
+               <Description en="city" ru="city"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -378,6 +426,30 @@ ProxyTunneling=true
                <AllowedTypes>FixedString</AllowedTypes>
                <Value></Value>
                <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>comments</Name>
+               <Description en="comments" ru="comments"/>
+               <SectionName en="" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
           </Model>
           <Defaults/>
      </ModelList>
