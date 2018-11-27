@@ -354,14 +354,15 @@
       section_end()!
 
       section_start("", 153540540)!
-      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjY29udGVudCA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNjb250ZW50ID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IGEgPiBzcGFuIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDUpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsImNzczMiOiIgPkNTUz4gLnByb2ZpbGUtY2FyZF9hdmEtbGluayA+IC51LWF2YV9pbWciLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48c3BhbiBzdHlsZT1cImJhY2tncm91bmQtaW1hZ2U6dXJsKCcvL2kubSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJjb250ZW50XCIpL2RpdltAY2xhc3M9XCJwcm9maWxlLWNhcmRfdyBfX2ZyaWVuZFwiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkIF9fY292ZXJcIl0vZGl2W0BjbGFzcz1cInByb2ZpbGUtY2FyZF9hdmF0YXItd1wiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkX2RhdGFcIl0vYVtAY2xhc3M9XCJwcm9maWxlLWNhcmRfYXZhLWxpbmsgdS1hdmEgX19ib3JkZXJlZFwiXS9zcGFuW0BjbGFzcz1cInUtYXZhX2ltZ1wiXSIsImF0IjoiMzQ0LCAyMDAiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjY29udGVudCA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNjb250ZW50ID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IGEgPiBzcGFuIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDUpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBhID4gc3BhbiIsImNzczMiOiIgPkNTUz4gLnByb2ZpbGUtY2FyZF9hdmEtbGluayA+IC51LWF2YV9pbWciLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48c3BhbiBzdHlsZT1cImJhY2tncm91bmQtaW1hZ2U6dXJsKCcvL2kubSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJjb250ZW50XCIpL2RpdltAY2xhc3M9XCJwcm9maWxlLWNhcmRfdyBfX2ZyaWVuZFwiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkIF9fY292ZXJcIl0vZGl2W0BjbGFzcz1cInByb2ZpbGUtY2FyZF9hdmF0YXItd1wiXS9kaXZbQGNsYXNzPVwicHJvZmlsZS1jYXJkX2RhdGFcIl0vYVtAY2xhc3M9XCJwcm9maWxlLWNhcmRfYXZhLWxpbmsgdS1hdmEgX19ib3JkZXJlZFwiXS9zcGFuW0BjbGFzcz1cInUtYXZhX2ltZ1wiXSIsImF0IjoiMzQ0LCAyMDAiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
       /*Browser*/
       _SELECTOR = "\u003eMATCH\u003e\u003cspan style=\u0022background-image:url(\u0027//i.m";
+      waiter_nofail_next();
       wait_element_visible(_SELECTOR)!
-      get_element_selector(_SELECTOR, false).random_point()!
+      get_element_selector(_SELECTOR, false).nowait().random_point()!
       _if(_result().length > 0, function(){
       move( {} )!
-      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
       _call(_clarify, {} )!
       mouse(X,Y)!
       })!
@@ -373,16 +374,31 @@
       section_end()!
 
       section_start("", 114048042)!
-      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAubnBfbWFyazEiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48YSByb2xlPVwiYnV0dG9uXCIgY2xhc3M9XCJucF9tYXJrIG5wX21hcmsxIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcInJvb3RcIikvYm9keVtAY2xhc3M9XCJkZXNrdG9wIG5vc2Nyb2xsIG4gdG9vbGJhci1zZWFyY2gtb24gZml4ZWQtc2lkZWJhci12aWV3IGJsb2NrZWQtb3Blbi1zaWRlYmFyIGZpeGVkIHN2Zy1hdmF0YXJzIHBpbGxvdy1hdmF0YXJzIGZ1bGwtaGVpZ2h0IHR3by1jb2x1bW5zLWxheW91dCBsaWdodC1zaWRlYmFyIHRvb2xiYXItZml4ZWQgd2lkZ2V0LXJlZGVzaWduIGZsb2F0LXNpZGViYXIgX19wcm9maWxlLWNhcmQgX191bmRlci1sYXllclwiXS9kaXZbQGNsYXNzPVwibnBfcGhvdG9Cb3ggYWRhcHRhYmxlIF9fZGVza3RvcCBfX3Nob3duIF9fc2hvd25JbmZvXCJdL2RpdltAY2xhc3M9XCJucF9jdHJsc1wiXS9kaXZbQGNsYXNzPVwibnBfY3RybHMtYm90dG9tXCJdL2RpdltAY2xhc3M9XCJucF9tYXJrcy1wYW5lbFwiXS9kaXZbQGNsYXNzPVwibnBfbWFya3NcIl0vZGl2W0BjbGFzcz1cIm5wX21hcmtzXCJdL2FbQGNsYXNzPVwibnBfbWFyayBucF9tYXJrMVwiXSIsImF0IjoiNDAzLCA1NDgiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAubnBfbWFyazEiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48YSByb2xlPVwiYnV0dG9uXCIgY2xhc3M9XCJucF9tYXJrIG5wX21hcmsxIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcInJvb3RcIikvYm9keVtAY2xhc3M9XCJkZXNrdG9wIG5vc2Nyb2xsIG4gdG9vbGJhci1zZWFyY2gtb24gZml4ZWQtc2lkZWJhci12aWV3IGJsb2NrZWQtb3Blbi1zaWRlYmFyIGZpeGVkIHN2Zy1hdmF0YXJzIHBpbGxvdy1hdmF0YXJzIGZ1bGwtaGVpZ2h0IHR3by1jb2x1bW5zLWxheW91dCBsaWdodC1zaWRlYmFyIHRvb2xiYXItZml4ZWQgd2lkZ2V0LXJlZGVzaWduIGZsb2F0LXNpZGViYXIgX19wcm9maWxlLWNhcmQgX191bmRlci1sYXllclwiXS9kaXZbQGNsYXNzPVwibnBfcGhvdG9Cb3ggYWRhcHRhYmxlIF9fZGVza3RvcCBfX3Nob3duIF9fc2hvd25JbmZvXCJdL2RpdltAY2xhc3M9XCJucF9jdHJsc1wiXS9kaXZbQGNsYXNzPVwibnBfY3RybHMtYm90dG9tXCJdL2RpdltAY2xhc3M9XCJucF9tYXJrcy1wYW5lbFwiXS9kaXZbQGNsYXNzPVwibnBfbWFya3NcIl0vZGl2W0BjbGFzcz1cIm5wX21hcmtzXCJdL2FbQGNsYXNzPVwibnBfbWFyayBucF9tYXJrMVwiXSIsImF0IjoiNDAzLCA1NDgiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
       /*Browser*/
       _SELECTOR = "\u003eMATCH\u003e\u003ca role=\u0022button\u0022 class=\u0022np_mark np_mark1";
+      waiter_nofail_next();
       wait_element_visible(_SELECTOR)!
-      get_element_selector(_SELECTOR, false).random_point()!
+      get_element_selector(_SELECTOR, false).nowait().random_point()!
       _if(_result().length > 0, function(){
       move( {} )!
-      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
       _call(_clarify, {} )!
       mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 446787357)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e2NvbW1lbnQgcGhvdG9zID99fSA9PSBcIk5vXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+      RS("comment photos ?", false, false)!
+      RESOURCE_479361 = _result().get()
+      _if(RESOURCE_479361 == "No",function(){
+      section_insert()
+         section_start("", 766145568)!
+         /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJkb24ndCBjb21tZW50IHBob3RvIn1dfQ==*/
+         _long_goto("don't comment photo", 1, [])!
+         section_end()!
+
       })!
       section_end()!
 
@@ -445,6 +461,11 @@
       })!
       section_end()!
 
+      section_start("", 944351000)!
+      /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTGFiZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRvbid0IGNvbW1lbnQgcGhvdG8iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      _set_goto_label("don\u0027t comment photo")!
+      section_end()!
+
       section_start("", 196381795)!
       /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMjAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
       sleep(rand(1000,2000))!
@@ -500,14 +521,14 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>false</IsEnginesInAppData>
      <CompileType>NoProtection</CompileType>
-     <ScriptVersion>0.0.3</ScriptVersion>
+     <ScriptVersion>0.0.4</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>21.4.1</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=287
+ToolboxHeight=338
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=0
@@ -674,6 +695,23 @@ All</Values>
                <Value>90</Value>
                <MinValue>14</MinValue>
                <MaxValue>90</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>comment photos ?</Name>
+               <Description en="comment photos ?" ru="comment photos ?"/>
+               <SectionName en="" ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>Yes
+No</Values>
+               <Selected>0</Selected>
+               <SelectType>1</SelectType>
           </Model>
           <Defaults/>
      </ModelList>
